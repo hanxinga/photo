@@ -1,0 +1,29 @@
+{
+  "name": "校园随手拍",
+  "appid": "wx9101d215b3d3a7a2",  // 需要填入您的微信小程序 appid
+  "description": "校园随手拍功能微信小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueCompiler": "uni-app"
+  },
+  "mp-weixin": {
+    "appid": "wx9101d215b3d3a7a2",  // 需要填入您的微信小程序 appid
+    "setting": {
+      "urlCheck": false
+    },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "您的位置信息将用于校园随手拍定位展示"
+      },
+      "scope.userInfo": {
+        "desc": "您的用户信息将用于身份认证"
+      },
+      "scope.camera": {
+        "desc": "需要使用相机功能进行拍照"
+      }
+    }
+  }
+} 
